@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>javascript Validation Form</h2>
+    <form id="form_id" method ="post" name="myform">
+        <label>User name:</label>
+        <input type="text" name="username" id="username"/>
+        <label>Password:</label>
+        <input type="password" name="password" id="password"/>
+        <input type="button" value="login" id="submit" onclick="validate()"/>
+    </form>
+    
+    <script>
+        function validate(){
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            if(username === "testuser" && password === "testuser@123"){
+                alert("login successfully");
+                window.location = "cafeteria.html"
+                return  false;
+            } 
+           
+            else{
+                alert("Enter the correct login details");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

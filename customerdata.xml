@@ -1,0 +1,23 @@
+<?xml version ="1.0"?>
+<customer>
+<data>
+<name>john Smith</name>
+<DOB>2-january</DOB>
+<city>Chennail</city>
+<state>Tamilnadu</state>
+<pincode>6000089</pincode>
+<product title="Television" brand="Samsung" price="50000"></product>
+<email>john@yahoo.in</email>
+</data>
+<data>
+<name>Annie</name>
+<DOB>30-March-1982</DOB>
+<city>Ville Parle</city>
+<state>Mumbai</state>
+<pincode>876001</pincode>
+<product title="Mobile Phone" company="Oppo"
+price="20000"></product>
+<phoneno>9600560190</phoneno>
+<email>annie@gmail.com</email>
+</data>
+</customer>
